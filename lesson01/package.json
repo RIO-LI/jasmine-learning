@@ -1,0 +1,17 @@
+{
+  "name": "lesson01",
+  "version": "1.0.0",
+  "description": "jasmine的最基础使用",
+  "main": "index.js",
+  "scripts": {
+    "init": "npm run jasmine init",
+    "jasmine": "node ./node_modules/jasmine/bin/jasmine",
+    "test": "npm run jasmine"
+  },
+  "devDependencies": {
+    "jasmine": "^3.3.1",
+    "hk-paparazzo": "^0.0.8"
+  },
+  "author": "RIO-LI",
+  "license": "MIT"
+}

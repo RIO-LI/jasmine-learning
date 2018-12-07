@@ -1,0 +1,17 @@
+{
+  "name": "lesson02",
+  "version": "1.0.0",
+  "description": "自定义jasmine 测试文件路径：相对于lesson02项目根目录",
+  "main": "index.js",
+  "scripts": {
+    "init": "npm run jasmine init",
+    "jasmine": "node ./node_modules/jasmine/bin/jasmine",
+    "test": "npm run jasmine"
+  },
+  "author": "RIO-LI",
+  "license": "MIT",
+  "dependencies": {
+    "hk-paparazzo": "0.0.8",
+    "jasmine": "^3.3.1"
+  }
+}
