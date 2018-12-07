@@ -1,0 +1,17 @@
+{
+  "name": "lesson05",
+  "version": "1.0.0",
+  "description": "通过helpers配置项，让指定文件代码在jasmine运行测试之前被调用",
+  "main": "index.js",
+  "scripts": {
+    "init": "npm run jasmine init",
+    "jasmine": "node node_modules/jasmine/bin/jasmine",
+    "test": "npm run jasmine"
+  },
+  "author": "RIO-LI",
+  "license": "MIT",
+  "dependencies": {
+    "hk-paparazzo": "0.0.8",
+    "jasmine": "^3.3.1"
+  }
+}
