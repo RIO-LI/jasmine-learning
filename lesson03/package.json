@@ -1,0 +1,21 @@
+{
+  "name": "lesson03",
+  "version": "1.0.0",
+  "description": "自定义jasmine配置文件的路径",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "hk-paparazzo": "^0.0.8",
+    "jasmine": "^3.3.1"
+  },
+  "scripts": {
+    "init": "npm run jasmine init",
+    "jasmine": "node node_modules/jasmine/bin/jasmine.js",
+    "test": "npm run jasmine -- --config=jasmine.json"
+  },
+  "keywords": [
+    "jasmine"
+  ],
+  "author": "RIO-LI",
+  "license": "MIT"
+}
