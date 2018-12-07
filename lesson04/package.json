@@ -1,7 +1,7 @@
 {
   "name": "lesson03",
   "version": "1.0.0",
-  "description": "自定义jasmine配置文件的路径",
+  "description": "只测试指定的测试单元",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
@@ -11,7 +11,7 @@
   "scripts": {
     "init": "npm run jasmine init",
     "jasmine": "node node_modules/jasmine/bin/jasmine",
-    "test": "npm run jasmine -- --config=jasmine.json"
+    "test": "npm run jasmine -- --filter='only hk-paparazzo.spec.js file will be tested'"
   },
   "keywords": [
     "jasmine"
