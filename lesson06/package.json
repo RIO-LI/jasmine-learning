@@ -1,0 +1,15 @@
+{
+  "name": "lesson05",
+  "version": "1.0.0",
+  "description": "直接从js文件中直接调用jasmine",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./index.js"
+  },
+  "author": "RIO-LI",
+  "license": "MIT",
+  "dependencies": {
+    "hk-paparazzo": "0.0.8",
+    "jasmine": "^3.3.1"
+  }
+}
